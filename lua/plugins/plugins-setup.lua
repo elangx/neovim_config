@@ -90,6 +90,15 @@ return require('packer').startup(function(use)
 
     ------rust的插件-----
     use'simrat39/rust-tools.nvim' --rust tool
+
+    ------lspfuzzy 用作查找跳转------
+    use {
+        'ojroques/nvim-lspfuzzy',
+        requires = {
+            {'junegunn/fzf'},
+            {'junegunn/fzf.vim'},  -- to enable preview (optional)
+        },
+    }
     if packer_bootstrap then
         require('packer').sync()
     end

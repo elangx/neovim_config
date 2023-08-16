@@ -114,6 +114,16 @@ _G.packer_plugins = {
     path = "/Users/elangx/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  fzf = {
+    loaded = true,
+    path = "/Users/elangx/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/Users/elangx/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/Users/elangx/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -179,6 +189,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/elangx/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-lspfuzzy"] = {
+    loaded = true,
+    path = "/Users/elangx/.local/share/nvim/site/pack/packer/start/nvim-lspfuzzy",
+    url = "https://github.com/ojroques/nvim-lspfuzzy"
   },
   ["nvim-tree.lua"] = {
     loaded = true,

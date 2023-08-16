@@ -17,4 +17,5 @@ require("plugins/comment")
 require("plugins/autopairs")
 require("plugins/fterm")
 require("plugins/dap")
+require("plugins/lspfuzzy")
 
